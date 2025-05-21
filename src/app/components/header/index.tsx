@@ -1,8 +1,9 @@
 import Link from 'next/link';
 
+
 export function Header() {
   return (
-    <header className='bg-teal-600 text-white p-5 shadow-md' >
+    <header className='bg-stone-900 text-white p-5 shadow-md' >
       <div className='container mx-auto flex justify-between items-center'>
         <h1 className='text-4xl font-extrabold tracking-wide'>
           To-do List
@@ -12,15 +13,15 @@ export function Header() {
             <li>
               <Link
                 href='/'
-                className='text-white hover:text-purple-700 hover:underline
+                className='text-white hover:text-red-900 hover:underline
                 transition-colors'>
-                  Faça seu Login ou Cadastro
+                  Login e Cadastro
               </Link>
             </li>
             <li>
               <Link
                 href='/todolist'
-                className='text-white hover:text-purple-700 hover:underline
+                className='text-white hover:text-red-900 hover:underline
                 transition-colors'>
                   Sua Lista de Tarefas
               </Link>

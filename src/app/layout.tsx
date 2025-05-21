@@ -21,8 +21,8 @@ export default function RootLayout({
       <body
         className={`
           antialiased
-          from-teal-900
-          to-gray-500
+          from-red-900
+          to-black
           bg-gradient-to-bl
           `}
       >
